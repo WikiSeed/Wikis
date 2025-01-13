@@ -1,0 +1,129 @@
+/* CSS placed here will be applied to all skins */
+
+/* Buttons */
+button, input[type="submit"] {
+    background: linear-gradient(90deg, #ff5757, #ff0000);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:hover, input[type="submit"]:hover {
+    background: linear-gradient(90deg, #ff0000, #ff5757);
+}
+
+/* Borders for tables and infoboxes */
+table, .infobox {
+    border: 1px solid #444;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+/* Change the logo */
+.mw-wiki-logo {
+    background-size: 150px;
+}
+
+* Set a dark background and light text */
+body {
+    background-color: #1a1a1a; /* Dark grey */
+    color: #e0e0e0; /* Light grey */
+}
+
+/* Background for headers */
+#mw-head, #p-personal, #left-navigation, #right-navigation {
+    background-color: #FF575A; /* Slightly lighter dark */
+    border: 1px solid #444; /* Subtle border for structure */
+}
+#p-personal a {color:white;}
+/* Subtle background texture */
+body {
+    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/07/sword-art-online-alternative-gun-gale-online-characters.jpg?q=50&fit=crop&w=1140&h=&dpr=1.5'); /* Replace with a GGO-themed background image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mw-portlet {
+    margin:0px !important;
+    background: #FF575A;
+    border-radius: 12px;
+    margin-top:5px !important;
+}
+
+#p-logo {
+    margin-top: 2px;
+    background: #FF575A;
+    border-radius:12px;
+}
+
+/* Navigation buttons (View Source, Edit, View History) */
+.vector-menu-content-list li {
+    background: linear-gradient(90deg, #ff5757, #ff0000); /* GGO red gradient */
+    color: white; /* Button text color */
+    border: 1px solid #ff0000; /* Border for definition */
+    border-radius: 8px; /* Rounded corners */
+    text-transform: uppercase; /* Make text stand out */
+    font-weight: bold; /* Strong text appearance */
+    box-shadow: 0 4px 6px rgba(255, 0, 0, 0.3); /* Add a glow effect */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.vector-menu-content-list li:hover {
+    background: linear-gradient(90deg, #ff0000, #ff5757); /* Reverse gradient */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Intense glow on hover */
+    transform: scale(1.05); /* Slightly enlarge */
+}
+
+/* Active tab style */
+.vector-menu-content-list .selected {
+    background-color: #ff0000;
+    color: white;
+    border: 2px solid #ff5757;
+    box-shadow: inset 0 0 10px rgba(255, 0, 0, 0.5); /* Inner glow for active tab */
+}
+
+.vector-legacy-sidebar .vector-menu-portal .vector-menu-content {
+    margin-left: 0px;
+}
+
+table {
+    color: unset;
+    background: unset;
+}
+
+.mw-list-item span {
+    color: white;
+}
+
+.client-js .collapsible-block:not(.collapsible-block-js) {
+    display: block;
+}
+
+#footer-icons a {
+    border:none;
+    background: transparent;
+}
+
+.mw-body {
+    border: none;
+    background: #fff6f7e3;
+}
+
+@media only screen and (max-width: 550px) {
+
+.main-page-tag-lcs-exploded {
+    float: unset !important;
+    width: unset !important;
+}
+
+.main-page-tag-rcs {
+    position: relative;
+    width: unset !important;
+    float: unset !important;
+    clear: right;
+}
+
+}
