@@ -1,0 +1,34 @@
+/* CSS placed here will be applied to all skins */
+#mw-header-container, body {
+    background: linear-gradient(to right, navy, blue);
+}
+
+#mw-content-container {
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/abd54830744357.5630f66ccce30.jpg) no-repeat;
+    background-size: cover;
+}
+
+#mw-content {
+    background: #ffffffcc;
+}
+
+
+.client-js .collapsible-block:not(.collapsible-block-js) {
+    display: block;
+}
+
+@media only screen and (max-width: 550px) {
+
+.main-page-tag-lcs-exploded {
+    float: unset !important;
+    width: unset !important;
+}
+
+.main-page-tag-rcs {
+    position: relative;
+    width: unset !important;
+    float: unset !important;
+    clear: right;
+}
+
+}
